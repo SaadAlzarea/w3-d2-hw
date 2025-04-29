@@ -1,0 +1,188 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Kufi+Arabic:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Special+Gothic+Expanded+One&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+* {
+  margin: 0%;
+  padding: 0%;
+}
+body {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  background-color: #f1f1f1 !important;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 2vh;
+    height: 50vh; 
+}
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 2vh;
+}
+.my-blog{
+    font-size: 3em;
+}
+.blog-welcome{
+    font-size: large;
+}
+span{
+    background-color: black;
+    color: white;
+    width: 20%;
+}
+.container{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    width: 90%;
+    justify-content: center;
+    align-items: center;
+    gap: 3%;
+}
+.item1{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    width: 90%;
+    border: 1px solid black;
+    border-radius:20px ;
+    img{
+        border-radius:20px ;
+    }
+}
+.card-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    gap: 2vh;
+    width: 95%;
+}
+.card-titel{
+    font-size: large;
+}
+.date{
+    font-size: small;
+    color: gray;
+}
+.card-body{
+    text-align: justify;
+}
+.read-more{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 15vh;
+    /* border: 1px solid red; */
+    width: 100%;
+
+}
+.read-more-btn{
+    width: 40%;
+    button{
+        width: 50%;
+        height: 6vh;
+    }
+}
+.comment{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 20%;
+    gap: 10px;
+    /* border: 1px solid red; */
+}
+.comment-number{
+    width: 1.5vw;
+    background-color: black;
+    color: #f1f1f1;
+    text-align: center;
+}
+.comment-number1{
+    width: 1.5vw;
+    background-color: black;
+    color: #f1f1f1;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.column{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    gap: 20px;
+}
+.item3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    border: 1px solid black;
+    border-radius:20px ;
+    
+    img{
+        border-radius:20px ;
+        margin-left:-50px ;
+    }
+}
+.item-3-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    gap: 2vh;
+    width: 95%;
+}
+.item4{
+    background-color: darkgrey;
+    border: 1px solid black;
+    /* border-radius:20px ; */
+}
+.posts{
+    height: 10vh;
+    p{
+        font-size: 1.5em;
+    }
+    display: flex;
+    align-items: center;
+}
+.post{
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    img{
+        width: 20%;
+    }
+}
+.describe{
+    width: 50%;
+    text-align: start;
+}
+.post:hover{
+    background-color: gray;
+}
+/* <div class="item">
+<div class="posts">
+    <p>Popular Posts</p>
+</div>
+<a href="">
+    <div class="post">
+        <img src="./images/image1.png" alt="" width="20%">
+        <div class="describe">
+            <p> <b>Lorem</b></p>
+            <p>Sed mattis nunc</p>
+        </div>
+    </div>
+</a>
+</div> */
